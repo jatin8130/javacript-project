@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.536);
+}
+h1{
+    display: flex;
+    font-size: 3cm;
+    justify-content: center;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 13cm;
+    background-color: rgba(0, 0, 0, 0.568);
+    place-items: center;
+    margin-top: 8%;
+    margin-left: 34%;
+    border-radius: 50px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.619);
+}
+.stopwatch{
+    font-size: 3cm;
+    color: rgb(248, 27, 27);
+}
+button{
+    font-size: 0.8cm;
+    font-weight: 400;
+    padding: 0.3cm;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.693);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: inset -3px -6px rgba(0, 0, 0, 0.522);
+}
